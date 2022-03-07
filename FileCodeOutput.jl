@@ -109,7 +109,7 @@ function Print3DMatrix(f,M;tabLen=0,varName="",codeStyle="C")
         print(f,"}");
 
     elseif codeStyle=="Julia"
-        print("Array{Float32,3}(undef,"*string(size(M)[1])*","*string(size(M)[2])*","*string(size(M)[3])*");\n");
+        print(f,"fill(0f0,"*string(size(M)[1])*","*string(size(M)[2])*","*string(size(M)[3])*");\n");
         for i in 1:size(M)[1]
             Print2DMatrix(f,M[i,:,:];varName=varName*"["*string(i)*",:,:]",codeStyle="Julia");
         end

@@ -24,7 +24,7 @@ function ReliAffixECDConverter()
 
     # Initialize with empty Array
     # Rank, Substats, Sequence
-    dataSet=Array{Float32,3}(undef,5,length(LookUpTable.substatProject),4);
+    dataSet=fill(0f0,5,length(LookUpTable.substatProject),4);
 
     # fill in the data
     for i in 1:length(dict)
@@ -62,7 +62,7 @@ function ReliLevelECDConverter()
     end
 
     # Rank, Substats, Level
-    dataSet=Array{Float32,3}(undef,5,length(LookUpTable.mainstatProject),21);
+    dataSet=fill(0f0,5,length(LookUpTable.mainstatProject),21);
 
     for i in 1:length(dict)
     

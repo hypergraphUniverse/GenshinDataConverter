@@ -28,7 +28,7 @@ using .JSONPhraser
 YourVersion= "0.1"
 
 # C(suitable for C and C++),Julia
-codeStyle = "C"
+codeStyle = "Julia"
 
 #=======================User configured Section==========================#
 
