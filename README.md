@@ -6,14 +6,22 @@ You should download JSON files in https://github.com/Dimbreath/GenshinData and c
 你需要同时下载上述链接所说JSON源数据, 并且将对应需要的内容复制到仓库中
 
 # Usage 使用方法
-tbd
 
 1. download/clone/fork a repo   下载、克隆这个仓库或者创建分支
 
 2. download Julia    下载Julia
+https://www.julialang.org/downloads/ download and install
+按照上述链接下载并安装适合你的版本
 
 3. download Packages in Julia    在Julia中下载模组
+    1. open julia command line   打开Julia命令行
+    2. press `[` to and see something like `pkg>`    按下 `[` 按键后会看到类似于 `pkg>` 之类的字样
+    3. input `add [Package]` and wait until installed(replace `[Package]`)    输入`add [Package]`并等待安装
 
+Package Lists: (e.g write `add JSON` in `pkg>`)  模组列表
+- JSON
+
+tbd
 4. configure the code on your need     按照你的需求配置更改代码
 
 5. run the script to generate file    运行脚本，生成文件
