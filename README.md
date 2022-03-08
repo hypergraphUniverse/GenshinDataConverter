@@ -24,6 +24,7 @@ Link: https://www.julialang.org/downloads/ download and install the version suit
     1. open julia command line \ 打开Julia命令行
     2. press `[` to and see something like `pkg>` \ 按下 `[` 按键后会看到类似于 `pkg>` 之类的字样
     3. input `add [Package]` and wait until installed(replace `[Package]`) \ 输入`add [Package]`并等待安装
+
 Package Lists: (e.g write `add JSON` in `pkg>`)  模组列表
 - JSON
 
