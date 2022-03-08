@@ -8,20 +8,22 @@ You should download JSON files in https://github.com/Dimbreath/GenshinData and c
 Accepted JSON Files Now: 目前能够接受的JSON文件有：
 - ReliquaryAffixExcelConfigData.json
 - ReliquaryLevelExcelConfigData.json
-Please use the deobfuscated version of JSON and put it in the same folder! 请使用解混淆后的JSON文件, 并放在同一目录中！
+
+Please use the deobfuscated version of JSON and put it in the same folder! \
+请使用解混淆后的JSON文件, 并放在同一目录中！
 
 # Usage 使用方法
 
-1. download/clone/fork a repo    下载、克隆这个仓库或者创建分支
+1. download/clone/fork this repo  下载、克隆这个仓库或者创建分支
 
-2. download Julia  下载Julia 
-https://www.julialang.org/downloads/ download and install \
+2. download Julia  下载Julia \
+Link: https://www.julialang.org/downloads/ download and install the version suitable for you\
 按照上述链接下载并安装适合你的版本
 
-3. download Packages in Julia\在Julia中下载模组
-    1. open julia command line\打开Julia命令行
-    2. press `[` to and see something like `pkg>`\按下 `[` 按键后会看到类似于 `pkg>` 之类的字样
-    3. input `add [Package]` and wait until installed(replace `[Package]`)\输入`add [Package]`并等待安装
+3. download Packages in Julia \ 在Julia中下载模组
+    1. open julia command line \ 打开Julia命令行
+    2. press `[` to and see something like `pkg>` \ 按下 `[` 按键后会看到类似于 `pkg>` 之类的字样
+    3. input `add [Package]` and wait until installed(replace `[Package]`) \ 输入`add [Package]`并等待安装
 Package Lists: (e.g write `add JSON` in `pkg>`)  模组列表
 - JSON
 
