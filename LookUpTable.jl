@@ -18,6 +18,8 @@ substatProject=Dict(
     "critical_hurt"=>10,
 )
 
+substatProjectRev=
+
 # Please add your output mainstat Sequence that you wish
 mainstatProject=Dict(
     "hp"=>1,
@@ -40,6 +42,29 @@ mainstatProject=Dict(
     "physical_add_hurt"=>18,
 )
 
+mainstatProjectRev=
+
+# Right side is your variable name for those stats. Also used in comment.
+statName=Dict(
+    "hp"=>"HP", 
+    "hp_percent"=>"HP%",
+    "attack"=>"ATK",
+    "attack_percent"=>"ATK%",
+    "defence"=>"DEF",
+    "defence_percent"=>"DEF%", 
+    "charge_efficiency"=>"ELEMENT_CHARGE", 
+    "element_mastery"=>"ELEMENT_MASTERY",
+    "critical"=>"CRIT_RATE",
+    "critical_hurt"=>"CRIT_DMG",
+    "heal_add"=>10,
+    "fire_add_hurt"=>12,
+    "elec_add_hurt"=>13,
+    "water_add_hurt"=>14,
+    "wind_add_hurt"=>15,
+    "rock_add_hurt"=>16,
+    "ice_add_hurt"=>17,
+    "physical_add_hurt"=>18,
+)
 
 #==============end of user configured section===============#
 

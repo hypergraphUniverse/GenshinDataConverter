@@ -27,8 +27,14 @@ using .JSONPhraser
 # Your Version Number
 YourVersion= "0.1"
 
-# C(suitable for C and C++),Julia
+# Target code style
+# Option: C(suitable for C and C++),Julia
 codeStyle = "Julia"
+
+# Target data Type
+# Option: f32(suggested), f64
+dataType = "f32"
+
 
 #=======================User configured Section==========================#
 

@@ -1,3 +1,7 @@
+Warning, this Repo is currently not in maintainance due to the unclear planning for the function, contact the author if you have a plan for this project!
+
+警告，这一项目目前没有在维护，因为涉及到此项目的功能规划非常混乱。如果说你对这个项目的功能有兴趣且能够对项目的规划做出一些建议，请联系作者。
+---
 # GenshinDataConverter
 Convert GenshinData's JSON into other codestyle. \
 将GenshinData的JSON数据转换成其他代码的工具。
